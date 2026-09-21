@@ -1,0 +1,30 @@
+# Build output
+/build/
+/out/
+/dist/
+*.user
+CMakeUserPresets.json
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+
+# Qt Creator
+CMakeLists.txt.user*
+.qtc_clangd/
+
+# Runtime data (never commit user data)
+/logs/
+/data/
+/models/*
+!/models/.gitkeep
+
+# Python bytecode from the helper scripts in scripts/
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+desktop.ini

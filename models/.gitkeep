@@ -1,0 +1,2 @@
+GGUF models are discovered from %LOCALAPPDATA%\JARVIS\models at runtime (Phase 3).
+This directory is kept so the repository layout matches the documented one.
